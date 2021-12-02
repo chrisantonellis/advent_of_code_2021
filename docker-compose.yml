@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+
+  solution:
+    build:
+      context: .
+    volumes:
+      - ./io:/io
+    entrypoint: ["python"]
